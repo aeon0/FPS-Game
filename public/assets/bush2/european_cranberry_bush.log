@@ -1,0 +1,73 @@
+	Exporter version: 4.0.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  Bush.European_Cranberry.Style_1
+		processing begun of Standard material:  Bush.European_Cranberry.Leaf.Mat
+		Diffuse texture found"Bush.European_Cranberry.Leaf.Tex"
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		WARNING: Opacity non-std way to indicate opacity, use material alpha to also use Opacity texture
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		processing begun of Standard material:  Bush.European_Cranberry.Bark.Mat
+		Diffuse texture found"Bush.European_Cranberry.Bark.Tex"
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		processing begun of Standard material:  Bush.European_Cranberry.Flowers.Mat
+		Diffuse texture found"Bush.European_Cranberry.Flowers.Tex"
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		WARNING: Opacity non-std way to indicate opacity, use material alpha to also use Opacity texture
+		processing begun of multimaterial:  european_cranberry_bush.Multimaterial#0
+		num positions      :  46174
+		num normals        :  46174
+		num uvs            :  92348
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  162606
+		WARNING: # of 0 area faces found:  2
+	processing begun of mesh:  Bush.European_Cranberry.Style_2
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Flowers.Mat
+		processing begun of multimaterial:  european_cranberry_bush.Multimaterial#1
+		num positions      :  64131
+		num normals        :  64131
+		num uvs            :  128262
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  228309
+	processing begun of mesh:  Bush.European_Cranberry.Style_3
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Bark.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Leaf.Mat
+		registered as also a user of material:  Bush.European_Cranberry.Flowers.Mat
+		processing begun of multimaterial:  european_cranberry_bush.Multimaterial#2
+		WARNING: Due to multi-materials / Shapekeys & this meshes size, 32bit indices must be used.  This may not run on all hardware.
+		num positions      :  96732
+		num normals        :  96732
+		num uvs            :  193464
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  358278
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 35.6161 secs

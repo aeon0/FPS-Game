@@ -1,0 +1,21 @@
+	Exporter version: 4.0.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+	Python World class constructor completed
+	processing begun of mesh:  weapon
+		WARNING: No materials have been assigned: 
+		num positions      :  20594
+		num normals        :  20594
+		num uvs            :  41188
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  54462
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 4.1082 secs

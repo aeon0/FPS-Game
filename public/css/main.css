@@ -1,0 +1,327 @@
+html, body {
+	overflow: hidden;
+	width   : 100%;
+	height  : 100%;
+	margin  : 0;
+	padding : 0; 
+    font-family: 'Roboto', 'Lato', sans-serif;
+	font-size: 17px;
+
+}  
+ 
+#gameCanvas {
+	width   : 100%;
+	height  : 100%;
+	touch-action: none;
+} 
+#fps{
+    position: fixed;
+    color: White;
+    background: rgb(34, 34, 34) none repeat scroll 0% 0%;
+    width: 65px;
+    height: 20px;
+    bottom: 0px;
+    padding: 5px;
+    text-align: left;
+}
+
+#gunsight {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -25px;
+    width: 50px; 
+    height: 30px;
+    display: none;
+}
+
+#info_pannel{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    width: 270px;
+    height: 150px;
+    background: rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.info_kill{
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 0px;
+}
+.killer{
+    color: green;
+}
+.killed{
+    color: red;
+}
+
+#health_bar{
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+    height: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.5);
+}
+ 
+#health_filler{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background: rgba(250,40,40,0.5);
+}
+
+#enter_user_name{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 100;  
+    background: url(images/background2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#enter_user_name_center{
+    height: 519px;
+    width: 340px;
+    margin-top: 10%;
+    background: RGBA(51, 51, 51, 0.89);
+    width: 100%;
+    margin-top: 14%;
+    bottom: 0;
+    position: fixed;
+}
+
+#input_user_name{
+    margin-top: 40px;
+    padding: 8px;
+    font-size: 19px;
+    border: 1px solid gray;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5px;
+    border-bottom: 3px solid #7d817e;
+}
+
+#wait_info{
+	margin-top: 40px;
+    padding: 8px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	color: white;
+}
+
+#submit_user_name{
+    width: 115px;
+    margin-left: 10px;
+    margin-top: 25px;
+    background: white;
+    padding: 8px;
+    font-size: 19px;
+    border: 4px solid #428d2a;
+    cursor: pointer;
+    border-radius: 100px;
+    height: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    display: Block;
+}
+#controlls{
+    position: fixed;
+    bottom: 30px;
+    color: White;
+    pointer-events: none;
+}
+.controll{
+    float: left;
+    border: 2px solid white;
+    padding: 6px;
+    border-radius: 5px;
+    width: 18px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+}
+.controll_wrapper{
+    width: 500px;
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 70px;
+}
+.controll_description{
+    float: left;
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 6px;
+}
+
+#you_are_dead{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+    top: 0px;
+    left: 0px; 
+    position: fixed;
+    z-index: 100;  
+    display: none;
+}
+#dead_info{
+    color: #d4987c;
+    font-size: 77px;
+    text-align: center;
+    margin-top: 90px;
+}
+#dead_info_small{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+#dead_info_smaller{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+#stats{
+    position: fixed;
+    margin-left: 10%;
+    padding: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    min-height: 500px;
+    width: 80%;
+    top: 50px; 
+    background: rgba(0,0,0,0.8);
+    border: 2px solid rgba(0,0,0,0.95);
+    display: none;
+    z-index: 120;  
+}
+
+#stats table{
+    color: white;
+    border-collapse:collapse;
+    width: 100%;
+}
+#stats table thead{
+    background: rgba(255, 255, 255, 0.65);
+    color: #930c0c;
+    font-weight: normal;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+#stats table th{
+    padding: 8px;
+} 
+#stats table tbody tr{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.33);
+    background: rgba(62, 62, 62, 0.37);
+}
+#stats table tbody .localPlayer{
+    background: rgba(159, 158, 48, 0.25);
+}
+#stats table tbody td{
+    padding: 8px;
+}
+
+
+#amo{
+    position: fixed;
+    width: 100px;
+    height: 50px; 
+    background: rgba(0, 0, 0, 0.51);
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+}
+#currAmo{
+    color: white;
+    font-size: 40px;
+    margin-left: 2px;
+    text-align: right;
+    width: 31px;
+}
+#amo img{
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    right: 6px;
+    top: 9px;
+}
+
+
+#chatInput{
+    background: rgba(0,0,0,0.5);
+    display: block;
+    position: fixed;
+    width: 80%;
+    left: 50px;
+    bottom: 40px;
+    z-index: 1000;
+    padding: 5px;
+    padding: 4px;
+    padding-left: 34px;
+    display: none;
+}
+#chatSymbol{
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+#chatInputField{
+    font-size: 17px;
+    background: transparent;
+    width: 100%;
+	outline: 0px;
+    color: white;
+    border: 0px solid black;
+}
+
+
+#chatWindows{
+    display: block;
+    position: fixed;
+    width: 80%;
+    left: 50px;
+    bottom: 80px;
+    z-index: 1000;
+    background: transparent;
+    height: 100%;
+    pointer-events: none;
+}
+#chatMsg_wrapper{
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    background: transparent;
+    width: 100%;
+}
+.chatMsg{
+    position: relative;
+}
+.sender{
+    font-weight: bold;
+    color: #c63333;
+    text-shadow: 1px 1px black;
+}
+.msg{
+    font-weight: bold;
+    //color: #cc9920;
+    color: white;
+    text-shadow: 1px 1px black;
+}
